@@ -16,6 +16,7 @@ void mainScreenView::setupScreen()
     wifiMenu.setAction(wifiAccessPointSelectedCallback);
     remove(wifiMenu);
     add(wifiMenu);
+    wifiMenu.setVisible(true);
 
 
 

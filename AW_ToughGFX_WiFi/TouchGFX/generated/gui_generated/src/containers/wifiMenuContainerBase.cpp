@@ -13,6 +13,7 @@ wifiMenuContainerBase::wifiMenuContainerBase()
     backgroundBox.setBitmap(touchgfx::Bitmap(BITMAP_ERROR_BOX_ID));
 
     wifiListContainer.setPosition(90, 54, 300, 198);
+    wifiListContainer.enableHorizontalScroll(false);
     wifiListContainer.setScrollbarsColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
 
     wifiList.setDirection(touchgfx::SOUTH);

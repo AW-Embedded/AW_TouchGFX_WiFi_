@@ -45,7 +45,6 @@
             "Y": 54,
             "Width": 300,
             "Height": 198,
-            "HorizontalScrollEnabled": true,
             "VerticalScrollEnabled": true,
             "ScrollbarsVisible": true,
             "ScrollbarsVisibleOnPressed": true,

@@ -117,7 +117,12 @@ void esWiFi_Task(void *argument)
     uint8_t msg;
     uint8_t retvalue;
 
-    wifi_scan(&APs[0]);
+    // Initial scan on power up
+    if(wifi_scan(&APs[0]) == NET_OK)
+    {
+        retvalue = UPDATE_WIFI_AP_DONE;
+        osMessageQueuePut(GUI_QueueHandle, &retvalue, 0, 0);
+    }
 
     for (;;)
     {
