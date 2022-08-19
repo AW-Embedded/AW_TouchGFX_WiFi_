@@ -11,10 +11,10 @@ void mainScreenView::setupScreen()
 {
     mainScreenViewBase::setupScreen();
 
-    wifiKeyboard.setPosition(0, 0, 480, 272);
-    wifiKeyboard.setKeyboardDoneReturnPressedAction(keyboardDonePressedCallback);
-    wifiKeyboard.setVisible(true);
-    add(wifiKeyboard);
+//    wifiKeyboard.setPosition(0, 0, 480, 272);
+//    wifiKeyboard.setKeyboardDoneReturnPressedAction(keyboardDonePressedCallback);
+//    wifiKeyboard.setVisible(true);
+//    add(wifiKeyboard);
 }
 
 void mainScreenView::tearDownScreen()

@@ -375,6 +375,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/common/FrontendApplication.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/gui/wifiInfoLargeContainer.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/containers/wifiInfoLargeContainer.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/wifiMenuContainer.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/containers/wifiMenuContainer.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/gui/mainScreenPresenter.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp</locationURI>
@@ -403,6 +413,26 @@
 			<name>Application/User/generated/FontCache.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/FontCache.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Font_SairaSemiCondensed_Medium_18_4bpp_0.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_SairaSemiCondensed_Medium_18_4bpp_0.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Font_SairaSemiCondensed_Medium_18_4bpp_4.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_SairaSemiCondensed_Medium_18_4bpp_4.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Font_Saira_Medium_22_4bpp_0.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_Saira_Medium_22_4bpp_0.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Font_Saira_Medium_22_4bpp_4.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_Saira_Medium_22_4bpp_4.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/Font_verdana_10_4bpp_0.cpp</name>
@@ -445,6 +475,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/GeneratedFont.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/Kerning_SairaSemiCondensed_Medium_18_4bpp.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Kerning_SairaSemiCondensed_Medium_18_4bpp.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Kerning_Saira_Medium_22_4bpp.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Kerning_Saira_Medium_22_4bpp.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/Kerning_verdana_10_4bpp.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Kerning_verdana_10_4bpp.cpp</locationURI>
@@ -468,6 +508,16 @@
 			<name>Application/User/generated/Kerning_verdana_40_4bpp.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Kerning_verdana_40_4bpp.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Table_SairaSemiCondensed_Medium_18_4bpp.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Table_SairaSemiCondensed_Medium_18_4bpp.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Table_Saira_Medium_22_4bpp.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Table_Saira_Medium_22_4bpp.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/Table_verdana_10_4bpp.cpp</name>
@@ -505,6 +555,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/wifiInfoLargeContainerBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/containers/wifiInfoLargeContainerBase.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/wifiMenuContainerBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/containers/wifiMenuContainerBase.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/mainScreenViewBase.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/mainscreen_screen/mainScreenViewBase.cpp</locationURI>
@@ -513,6 +573,26 @@
 			<name>Application/User/generated/BitmapDatabase.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/BitmapDatabase.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_wifi_dot_settings.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/Wifi/image_wifi_dot_settings.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_wifi_full_settings.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/Wifi/image_wifi_full_settings.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_wifi_low_settings.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/Wifi/image_wifi_low_settings.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_wifi_mid_settings.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/Wifi/image_wifi_mid_settings.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_Dark_Backgrounds_Main_bg_texture_480x272px.cpp</name>
@@ -553,6 +633,11 @@
 			<name>Application/User/generated/image_keyboard_pressed_space.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/keyboard/image_keyboard_pressed_space.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_error_box.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/settings/image_error_box.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/LanguageGb.cpp</name>

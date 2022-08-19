@@ -10,12 +10,162 @@
             "Width": 480,
             "Height": 272,
             "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "wifiMenu",
+            "Width": 480,
+            "Height": 272,
+            "Visible": false,
+            "CustomContainerDefinitionName": "wifiMenuContainer"
           }
         ],
         "Interactions": []
       }
     ],
-    "CustomContainerDefinitions": [],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "wifiMenuContainer",
+        "Width": 480,
+        "Height": 272,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "backgroundBox",
+            "X": 90,
+            "Y": 54,
+            "Width": 300,
+            "Height": 198,
+            "RelativeFilename": "settings\\error_box.png"
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "wifiListContainer",
+            "X": 90,
+            "Y": 54,
+            "Width": 300,
+            "Height": 198,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "wifiList",
+                "Width": 576,
+                "Height": 61,
+                "Direction": "South",
+                "Components": []
+              }
+            ]
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "wifiInfoLargeContainer",
+        "Width": 300,
+        "Height": 62,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "wifiSSID",
+            "X": 16,
+            "Y": 5,
+            "Width": 218,
+            "Height": 30,
+            "TextId": "__SingleUse_4CY4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 235,
+              "Blue": 235
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_NRXH",
+              "UseBuffer": true,
+              "BufferSize": 40
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "encryption",
+            "X": 16,
+            "Y": 31,
+            "Width": 218,
+            "Height": 25,
+            "TextId": "__SingleUse_X5OV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 235,
+              "Blue": 235
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_47B1",
+              "UseBuffer": true,
+              "BufferSize": 40
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "signalStrengthIcon",
+            "X": 240,
+            "Y": 11,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "Wifi\\wifi_low_settings.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "listButtonOverlay",
+            "Width": 300,
+            "Height": 62,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "listButtonOverlay"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "elementSelected"
+            }
+          }
+        ]
+      }
+    ],
     "Name": "AW_ToughGFX_WiFi",
     "Resolution": {
       "Width": 480,

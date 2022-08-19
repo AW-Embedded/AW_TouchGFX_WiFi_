@@ -10,7 +10,11 @@ KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE;
 // Remap all strings
 TEXT_LOCATION_FLASH_PRAGMA
 KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
-    0, // T_ENTEREDTEXT: "<>"
-    6, // T_NUMMODE: "ABC"
-    2  // T_ALPHAMODE: "123"
+    34, // T_ENTEREDTEXT: "<>"
+    40, // T_NUMMODE: "ABC"
+    36, // T_ALPHAMODE: "123"
+    17, // T___SINGLEUSE_NRXH: "WIFI_SSID_1_TEST"
+    34, // T___SINGLEUSE_4CY4: "<>"
+    0,  // T___SINGLEUSE_47B1: "Encrypted (WPA2)"
+    34  // T___SINGLEUSE_X5OV: "<>"
 };

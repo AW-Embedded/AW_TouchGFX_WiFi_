@@ -14,11 +14,15 @@ mainScreenViewBase::mainScreenViewBase()
     bg1.setXY(0, 0);
     bg1.setBitmap(touchgfx::Bitmap(BITMAP_DARK_BACKGROUNDS_MAIN_BG_TEXTURE_480X272PX_ID));
 
+    wifiMenu.setXY(0, 0);
+    wifiMenu.setVisible(false);
+
     add(__background);
     add(bg1);
+    add(wifiMenu);
 }
 
 void mainScreenViewBase::setupScreen()
 {
-
+    wifiMenu.initialize();
 }

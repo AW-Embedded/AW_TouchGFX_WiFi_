@@ -25,6 +25,10 @@
     <ClCompile Include="..\..\gui\src\model\Model.cpp"/>
     <ClCompile Include="..\..\generated\simulator\src\video\SoftwareMJPEGDecoder.cpp"/>
     <ClCompile Include="..\..\gui\src\common\CustomKeyboard.cpp"/>
+    <ClCompile Include="..\..\gui\src\containers\wifiInfoLargeContainer.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\wifiInfoLargeContainerBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\containers\wifiMenuContainer.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\wifiMenuContainerBase.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -181,6 +185,12 @@
     <ClInclude Include="..\..\gui\include\gui\common\CustomKeyboard.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\KeyboardKeyMapping.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\KeyboardLayout.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\common\enums.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\containers\wifiInfoLargeContainer.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\wifiInfoLargeContainerBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\containers\wifiMenuContainer.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\wifiMenuContainerBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\common\structs.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

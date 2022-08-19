@@ -9,6 +9,7 @@
 #include <gui/mainscreen_screen/mainScreenPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/Image.hpp>
+#include <gui/containers/wifiMenuContainer.hpp>
 
 class mainScreenViewBase : public touchgfx::View<mainScreenPresenter>
 {
@@ -27,6 +28,7 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::Image bg1;
+    wifiMenuContainer wifiMenu;
 
 private:
 

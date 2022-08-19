@@ -19,17 +19,21 @@ struct Typography
     static const touchgfx::FontId DISPLAY = 3;
     static const touchgfx::FontId KEYBOARD = 4;
     static const touchgfx::FontId MODE = 5;
+    static const touchgfx::FontId WIFIERRORSMALL = 6;
+    static const touchgfx::FontId WIFIBUTTON = 7;
 };
 
 struct TypographyFontIndex
 {
-    static const touchgfx::FontId DEFAULT = 0;  // verdana_20_4bpp
-    static const touchgfx::FontId LARGE = 1;    // verdana_40_4bpp
-    static const touchgfx::FontId SMALL = 2;    // verdana_10_4bpp
-    static const touchgfx::FontId DISPLAY = 3;  // verdana_34_4bpp
-    static const touchgfx::FontId KEYBOARD = 4; // verdana_18_4bpp
-    static const touchgfx::FontId MODE = 4;     // verdana_18_4bpp
-    static const uint16_t NUMBER_OF_FONTS = 5;
+    static const touchgfx::FontId DEFAULT = 0;        // verdana_20_4bpp
+    static const touchgfx::FontId LARGE = 1;          // verdana_40_4bpp
+    static const touchgfx::FontId SMALL = 2;          // verdana_10_4bpp
+    static const touchgfx::FontId DISPLAY = 3;        // verdana_34_4bpp
+    static const touchgfx::FontId KEYBOARD = 4;       // verdana_18_4bpp
+    static const touchgfx::FontId MODE = 4;           // verdana_18_4bpp
+    static const touchgfx::FontId WIFIERRORSMALL = 5; // Saira_Medium_22_4bpp
+    static const touchgfx::FontId WIFIBUTTON = 6;     // SairaSemiCondensed_Medium_18_4bpp
+    static const uint16_t NUMBER_OF_FONTS = 7;
 };
 
 class ApplicationFontProvider : public touchgfx::FontProvider
