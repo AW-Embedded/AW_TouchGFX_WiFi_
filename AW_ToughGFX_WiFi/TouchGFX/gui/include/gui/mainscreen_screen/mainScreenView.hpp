@@ -14,6 +14,9 @@ public:
     virtual void tearDownScreen();
 protected:
     CustomKeyboard wifiKeyboard;
+
+    void keyboardDonePressed(Unicode::UnicodeChar buffer[]);
+    Callback<mainScreenView, Unicode::UnicodeChar[]> keyboardDonePressedCallback;
 };
 
 #endif // MAINSCREENVIEW_HPP
