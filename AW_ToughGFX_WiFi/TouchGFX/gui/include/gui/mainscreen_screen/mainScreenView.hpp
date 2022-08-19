@@ -12,11 +12,18 @@ public:
     virtual ~mainScreenView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+
+    void updateWiFiInformaion(struct wifiData data[], uint16_t numberOfPoints);
 protected:
     CustomKeyboard wifiKeyboard;
 
     void keyboardDonePressed(Unicode::UnicodeChar buffer[]);
     Callback<mainScreenView, Unicode::UnicodeChar[]> keyboardDonePressedCallback;
+
+    void wifiAccessPointSelected(int id);
+    Callback<mainScreenView, int> wifiAccessPointSelectedCallback;
+
+    int selectedWiFiID;
 };
 
 #endif // MAINSCREENVIEW_HPP

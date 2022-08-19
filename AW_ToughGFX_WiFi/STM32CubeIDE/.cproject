@@ -53,7 +53,6 @@
                   <listOptionValue builtIn="false" value="../../TouchGFX/target"/>
                   <listOptionValue builtIn="false" value="../../TouchGFX/App"/>
                   <listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
-                  <listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
                   <listOptionValue builtIn="false" value="../../TouchGFX/target/generated"/>
                   <listOptionValue builtIn="false" value="../../Drivers/STM32H7xx_HAL_Driver/Inc"/>
                   <listOptionValue builtIn="false" value="../../Drivers/BSP/Components/Common"/>
@@ -90,7 +89,6 @@
                   <listOptionValue builtIn="false" value="../../TouchGFX/target"/>
                   <listOptionValue builtIn="false" value="../../TouchGFX/App"/>
                   <listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
-                  <listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
                   <listOptionValue builtIn="false" value="../../TouchGFX/target/generated"/>
                   <listOptionValue builtIn="false" value="../../Drivers/STM32H7xx_HAL_Driver/Inc"/>
                   <listOptionValue builtIn="false" value="../../Drivers/BSP/Components/Common"/>
@@ -305,6 +303,13 @@
       <autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
     </scannerConfigBuildInfo>
   </storageModule>
-  <storageModule moduleId="refreshScope"/>
+  <storageModule moduleId="refreshScope" versionNumber="2">
+    <configuration configurationName="Debug">
+      <resource resourceType="PROJECT" workspacePath="/AW_TouchGFX_WiFi"/>
+    </configuration>
+    <configuration configurationName="Release">
+      <resource resourceType="PROJECT" workspacePath="/AW_TouchGFX_WiFi"/>
+    </configuration>
+  </storageModule>
   <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>
