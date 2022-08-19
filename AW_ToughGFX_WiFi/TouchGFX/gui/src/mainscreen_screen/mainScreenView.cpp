@@ -65,6 +65,5 @@ void mainScreenView::wifiAccessPointSelected(int id)
 void mainScreenView::updateWiFiInformaion(struct  wifiData data[], uint16_t numberOfPoints)
 {
     wifiMenu.updateWifiList(data, numberOfPoints);
-    //settingsMenu.updateWifiList(data, numberOfPoints);
 }
 

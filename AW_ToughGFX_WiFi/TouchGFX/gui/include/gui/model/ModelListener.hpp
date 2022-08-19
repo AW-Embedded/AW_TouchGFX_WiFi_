@@ -14,6 +14,8 @@ public:
     {
         model = m;
     }
+
+    virtual void updateWiFiInformaion(struct  wifiData data[], int numberOfPoints) {}
 protected:
     Model* model;
 };

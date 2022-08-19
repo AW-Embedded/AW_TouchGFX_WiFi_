@@ -16,3 +16,8 @@ void mainScreenPresenter::deactivate()
 {
 
 }
+
+void mainScreenPresenter::updateWiFiInformaion(struct wifiData data[], int numberOfPoints)
+{
+    view.updateWiFiInformaion(data, numberOfPoints);
+}

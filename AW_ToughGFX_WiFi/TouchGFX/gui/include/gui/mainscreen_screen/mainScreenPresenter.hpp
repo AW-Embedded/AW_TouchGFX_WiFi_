@@ -27,6 +27,8 @@ public:
 
     virtual ~mainScreenPresenter() {};
 
+    virtual void updateWiFiInformaion(struct  wifiData data[], int numberOfPoints);
+
 private:
     mainScreenPresenter();
 
