@@ -365,6 +365,11 @@
 			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/gui/CustomKeyboard.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/common/CustomKeyboard.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/gui/FrontendApplication.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/common/FrontendApplication.cpp</locationURI>
@@ -405,9 +410,29 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_verdana_10_4bpp_0.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/Font_verdana_18_4bpp_0.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_verdana_18_4bpp_0.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Font_verdana_18_4bpp_4.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_verdana_18_4bpp_4.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/Font_verdana_20_4bpp_0.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_verdana_20_4bpp_0.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Font_verdana_34_4bpp_0.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_verdana_34_4bpp_0.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Font_verdana_34_4bpp_4.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_verdana_34_4bpp_4.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/Font_verdana_40_4bpp_0.cpp</name>
@@ -425,9 +450,19 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Kerning_verdana_10_4bpp.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/Kerning_verdana_18_4bpp.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Kerning_verdana_18_4bpp.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/Kerning_verdana_20_4bpp.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Kerning_verdana_20_4bpp.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Kerning_verdana_34_4bpp.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Kerning_verdana_34_4bpp.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/Kerning_verdana_40_4bpp.cpp</name>
@@ -440,9 +475,19 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Table_verdana_10_4bpp.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/Table_verdana_18_4bpp.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Table_verdana_18_4bpp.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/Table_verdana_20_4bpp.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Table_verdana_20_4bpp.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Table_verdana_34_4bpp.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Table_verdana_34_4bpp.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/Table_verdana_40_4bpp.cpp</name>
@@ -473,6 +518,41 @@
 			<name>Application/User/generated/image_Dark_Backgrounds_Main_bg_texture_480x272px.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__designer/image_Dark_Backgrounds_Main_bg_texture_480x272px.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_keyboard_normal.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/keyboard/image_keyboard_normal.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_keyboard_pressed_backspace.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/keyboard/image_keyboard_pressed_backspace.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_keyboard_pressed_capslock.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/keyboard/image_keyboard_pressed_capslock.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_keyboard_pressed_done.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/keyboard/image_keyboard_pressed_done.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_keyboard_pressed_key.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/keyboard/image_keyboard_pressed_key.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_keyboard_pressed_mode.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/keyboard/image_keyboard_pressed_mode.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_keyboard_pressed_space.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/keyboard/image_keyboard_pressed_space.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/LanguageGb.cpp</name>

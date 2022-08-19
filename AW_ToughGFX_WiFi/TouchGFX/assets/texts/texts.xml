@@ -4,11 +4,24 @@
     <Language Id="GB" />
   </Languages>
   <Texts>
-    <TextGroup Id="Group1" />
+    <TextGroup Id="Group1">
+      <Text Id="EnteredText" Alignment="Center" TypographyId="Display">
+        <Translation Language="GB">&lt;placeholder&gt;</Translation>
+      </Text>
+      <Text Id="NumMode" Alignment="Center" TypographyId="Keyboard">
+        <Translation Language="GB">ABC</Translation>
+      </Text>
+      <Text Id="AlphaMode" Alignment="Center" TypographyId="Keyboard">
+        <Translation Language="GB">123</Translation>
+      </Text>
+    </TextGroup>
   </Texts>
   <Typographies>
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Display" Font="verdana.ttf" Size="34" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;" WildcardCharacterRanges="a-z,A-Z,0-9" />
+    <Typography Id="Keyboard" Font="verdana.ttf" Size="18" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;" WildcardCharacterRanges="a-z,A-Z,0-9" />
+    <Typography Id="Mode" Font="verdana.ttf" Size="18" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;" WildcardCharacterRanges="a-z,A-Z,0-9" />
   </Typographies>
 </TextDatabase>

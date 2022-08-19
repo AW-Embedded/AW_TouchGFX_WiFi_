@@ -18,6 +18,15 @@ touchgfx::Font* ApplicationFontProvider::getFont(touchgfx::FontId typography)
     case Typography::SMALL:
         // verdana_10_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[2]);
+    case Typography::DISPLAY:
+        // verdana_34_4bpp
+        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[3]);
+    case Typography::KEYBOARD:
+        // verdana_18_4bpp
+        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[4]);
+    case Typography::MODE:
+        // verdana_18_4bpp
+        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[4]);
     default:
         return 0;
     }
