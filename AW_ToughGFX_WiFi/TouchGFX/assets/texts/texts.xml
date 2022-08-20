@@ -26,6 +26,18 @@
       <Text Id="__SingleUse_X5OV" Alignment="Left" TypographyId="wifiButton">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
+      <Text Id="__SingleUse_6A1U" Alignment="Center" TypographyId="wifiButton">
+        <Translation Language="GB">Try again?</Translation>
+      </Text>
+      <Text Id="connectionError" Alignment="Center" TypographyId="wifiConnecting">
+        <Translation Language="GB">Connection failed!</Translation>
+      </Text>
+      <Text Id="__SingleUse_47PP" Alignment="Left" TypographyId="wifiConnecting">
+        <Translation Language="GB">....</Translation>
+      </Text>
+      <Text Id="connecting" Alignment="Left" TypographyId="wifiConnecting">
+        <Translation Language="GB">Connecting&lt;value&gt;</Translation>
+      </Text>
     </TextGroup>
   </Texts>
   <Typographies>
@@ -37,5 +49,6 @@
     <Typography Id="Mode" Font="verdana.ttf" Size="18" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;" WildcardCharacterRanges="a-z,A-Z,0-9" />
     <Typography Id="wifierrorSmall" Font="Saira-Medium.ttf" Size="22" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;" WildcardCharacterRanges="a-z,A-Z,0-9" />
     <Typography Id="wifiButton" Font="SairaSemiCondensed-Medium.ttf" Size="18" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;" WildcardCharacterRanges="0-9,A-Z,a-z" />
+    <Typography Id="wifiConnecting" Font="SairaSemiCondensed-Medium.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;" WildcardCharacterRanges="0-9,A-Z,a-z" />
   </Typographies>
 </TextDatabase>

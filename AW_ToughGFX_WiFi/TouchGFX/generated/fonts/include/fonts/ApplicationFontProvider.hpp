@@ -21,6 +21,7 @@ struct Typography
     static const touchgfx::FontId MODE = 5;
     static const touchgfx::FontId WIFIERRORSMALL = 6;
     static const touchgfx::FontId WIFIBUTTON = 7;
+    static const touchgfx::FontId WIFICONNECTING = 8;
 };
 
 struct TypographyFontIndex
@@ -33,7 +34,8 @@ struct TypographyFontIndex
     static const touchgfx::FontId MODE = 4;           // verdana_18_4bpp
     static const touchgfx::FontId WIFIERRORSMALL = 5; // Saira_Medium_22_4bpp
     static const touchgfx::FontId WIFIBUTTON = 6;     // SairaSemiCondensed_Medium_18_4bpp
-    static const uint16_t NUMBER_OF_FONTS = 7;
+    static const touchgfx::FontId WIFICONNECTING = 7; // SairaSemiCondensed_Medium_20_4bpp
+    static const uint16_t NUMBER_OF_FONTS = 8;
 };
 
 class ApplicationFontProvider : public touchgfx::FontProvider

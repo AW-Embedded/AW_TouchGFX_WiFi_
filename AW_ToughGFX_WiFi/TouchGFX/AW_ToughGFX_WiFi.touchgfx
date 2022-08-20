@@ -163,6 +163,115 @@
             }
           }
         ]
+      },
+      {
+        "Name": "wifiConnectingContainer",
+        "Width": 480,
+        "Height": 272,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "gradientBG",
+            "X": 90,
+            "Y": 54,
+            "Width": 300,
+            "Height": 198,
+            "RelativeFilename": "settings\\error_box.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "wifiRetryButton",
+            "X": 160,
+            "Y": 188,
+            "Width": 160,
+            "Height": 40,
+            "Pressed": "settings\\errorButton.png",
+            "Released": "settings\\errorButton.png",
+            "TextId": "__SingleUse_6A1U",
+            "ReleasedColor": {
+              "Red": 235,
+              "Green": 235,
+              "Blue": 235
+            },
+            "PressedColor": {
+              "Red": 235,
+              "Green": 235,
+              "Blue": 235
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "wifiConnectionStatus",
+            "X": 151,
+            "Y": 152,
+            "Width": 178,
+            "Height": 31,
+            "TextId": "connectionError",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 235,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "errorImage",
+            "X": 208,
+            "Y": 82,
+            "Width": 64,
+            "Height": 64,
+            "RelativeFilename": "Wifi\\wifi_error.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "connectingText",
+            "X": 183,
+            "Y": 162,
+            "Width": 115,
+            "Height": 30,
+            "TextId": "connecting",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 235,
+              "Green": 235,
+              "Blue": 235
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_47PP",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "connectingImage",
+            "X": 204,
+            "Y": 91,
+            "Width": 72,
+            "Height": 72,
+            "RelativeFilename": "wifi_dot_icon_24-3x.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "wifiRetryPressed",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "wifiRetryButton"
+            },
+            "Action": {
+              "Type": "ActionEmit",
+              "TriggerCustomTypeName": "wifiConnectingContainer wifiRetryPressed happens"
+            }
+          }
+        ],
+        "CustomTriggers": [
+          {
+            "Name": "wifiRetryPressed"
+          }
+        ]
       }
     ],
     "Name": "AW_ToughGFX_WiFi",
