@@ -47,8 +47,8 @@ void Model::handleMessages()
         {
             case UPDATE_WIFI_AP_DONE:
                 //prev_request = osKernelSysTick();
-                //updateWifiSignalStrength();
                 updateWifi();
+                //updateWifiSignalStrength();
             break;
 
             case CONNECTING_TO_WIFI_ERROR:
@@ -88,24 +88,26 @@ static inline int rssi_to_strength(int16_t RSSI)
     return 0;
 }
 
+// Called once we know WiFi AP scan has completed
 void Model::updateWifi()
 {
-  for (int cnt = 0; cnt < MAX_LISTED_AP; cnt++)
-  {
-    if (APs[cnt].ssid.value[0] == 0) break;
-    wifiAccessPoints[cnt].id = cnt;
-    touchgfx::Unicode::snprintf(wifiAccessPoints[cnt].ssid, 32, (const char*)APs[cnt].ssid.value);
-    touchgfx::Unicode::snprintf(wifiAccessPoints[cnt].encryption, 30,net_wifi_security_to_string(APs[cnt].security));
-    wifiAccessPoints[cnt].signalStrength = rssi_to_strength(APs[cnt].rssi);
+    for (int cnt = 0; cnt < MAX_LISTED_AP; cnt++)
+    {
+        if (APs[cnt].ssid.value[0] == 0)
+            break;
 
-    if ((APs[cnt].security != NET_WIFI_SM_OPEN) && (APs[cnt].security != NET_WIFI_SM_UNKNOWN))
-     {
-       wifiAccessPoints[cnt].encrypted = true;
-     }
-    numberOfWifiAccesPoints=cnt+1;
-  }
+        wifiAccessPoints[cnt].id = cnt;
+        touchgfx::Unicode::snprintf(wifiAccessPoints[cnt].ssid, 32, (const char*)APs[cnt].ssid.value);
+        touchgfx::Unicode::snprintf(wifiAccessPoints[cnt].encryption, 30,net_wifi_security_to_string(APs[cnt].security));
+        wifiAccessPoints[cnt].signalStrength = rssi_to_strength(APs[cnt].rssi);
 
-  modelListener->updateWiFiInformaion(wifiAccessPoints, numberOfWifiAccesPoints);
+        if ((APs[cnt].security != NET_WIFI_SM_OPEN) && (APs[cnt].security != NET_WIFI_SM_UNKNOWN))
+        {
+            wifiAccessPoints[cnt].encrypted = true;
+        }
+        numberOfWifiAccesPoints=cnt+1;
+    }
+    modelListener->updateWiFiInformaion(wifiAccessPoints, numberOfWifiAccesPoints);
 }
 #endif // ndef SIMULATOR
 
