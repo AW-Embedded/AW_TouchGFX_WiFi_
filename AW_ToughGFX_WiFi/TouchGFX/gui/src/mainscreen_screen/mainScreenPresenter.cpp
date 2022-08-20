@@ -21,3 +21,8 @@ void mainScreenPresenter::updateWiFiInformaion(struct wifiData data[], int numbe
 {
     view.updateWiFiInformaion(data, numberOfPoints);
 }
+
+void mainScreenPresenter::getWifiAccessPoints(wifiData &ap, int id)
+{
+    model->getWifiAccessPoints(ap, id);
+}

@@ -18,12 +18,10 @@ void mainScreenView::setupScreen()
     add(wifiMenu);
     wifiMenu.setVisible(true);
 
-
-
-//    wifiKeyboard.setPosition(0, 0, 480, 272);
-//    wifiKeyboard.setKeyboardDoneReturnPressedAction(keyboardDonePressedCallback);
-//    wifiKeyboard.setVisible(true);
-//    add(wifiKeyboard);
+    wifiKeyboard.setPosition(0, 0, 480, 272);
+    wifiKeyboard.setKeyboardDoneReturnPressedAction(keyboardDonePressedCallback);
+    wifiKeyboard.setVisible(false);
+    add(wifiKeyboard);
 }
 
 void mainScreenView::tearDownScreen()
@@ -40,8 +38,8 @@ void mainScreenView::keyboardDonePressed(Unicode::UnicodeChar buffer[])
 
 void mainScreenView::wifiAccessPointSelected(int id)
 {
-    //wifiData selectedAP;
-    //presenter->getWifiAccessPoints(selectedAP, id);
+    wifiData selectedAP;
+    presenter->getWifiAccessPoints(selectedAP, id);
     selectedWiFiID = id;
 
     //settingsMenu.setVisible(false);
@@ -52,15 +50,15 @@ void mainScreenView::wifiAccessPointSelected(int id)
 
     //presenter->setInSettings(false);
 
-//    if (selectedAP.encrypted)
-//    {
-//        wifiKeyboard.setVisible(true);
-//        wifiKeyboard.invalidate();
-//    }
-//    else
-//    {
-//        keyboardDonePressed(0);
-//    }
+    if (selectedAP.encrypted)
+    {
+        wifiKeyboard.setVisible(true);
+        wifiKeyboard.invalidate();
+    }
+    else
+    {
+        keyboardDonePressed(0);
+    }
 }
 
 void mainScreenView::updateWiFiInformaion(struct  wifiData data[], uint16_t numberOfPoints)

@@ -17,6 +17,7 @@ public:
 
     void tick();
     void updateWifi();
+    void getWifiAccessPoints(wifiData &ap, int id);
 protected:
     ModelListener* modelListener;
 

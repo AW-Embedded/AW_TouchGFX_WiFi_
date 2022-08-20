@@ -28,6 +28,7 @@ public:
     virtual ~mainScreenPresenter() {};
 
     virtual void updateWiFiInformaion(struct  wifiData data[], int numberOfPoints);
+    void getWifiAccessPoints(wifiData &ap, int id);
 
 private:
     mainScreenPresenter();

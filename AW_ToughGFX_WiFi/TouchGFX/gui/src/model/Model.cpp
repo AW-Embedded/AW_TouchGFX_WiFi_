@@ -88,6 +88,11 @@ static inline int rssi_to_strength(int16_t RSSI)
     return 0;
 }
 
+void Model::getWifiAccessPoints(wifiData &ap, int id)
+{
+  memcpy(&ap, &wifiAccessPoints[id], sizeof(ap));
+}
+
 // Called once we know WiFi AP scan has completed
 void Model::updateWifi()
 {
