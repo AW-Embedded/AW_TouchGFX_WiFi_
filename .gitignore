@@ -44,4 +44,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+AW_ToughGFX_WiFi/STM32CubeIDE/Debug/
 AW_ToughGFX_WiFi/STM32CubeIDE/Debug/AW_TouchGFX_WiFi.list
+AW_ToughGFX_WiFi/STM32CubeIDE/.settings/language.settings.xml
+AW_ToughGFX_WiFi/STM32CubeIDE/stm32cubeide.project.prefs
+*.list
+*.mk
